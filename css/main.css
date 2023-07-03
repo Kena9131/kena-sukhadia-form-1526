@@ -1,0 +1,140 @@
+body{
+    margin: auto;
+    font-family: Helvetica;
+    font-size: 1rem;
+}
+
+form{
+    margin: auto;
+    padding-top: 3rem;
+    max-width: 50rem;
+}
+
+legend{
+    font-size: 2rem;
+    background-color: white;
+    border: 0.1rem solid #DDD;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    border: 0.1rem solid #DDD;
+    border-radius: 4px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#fname{
+    width: 21rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    border: 0.1rem solid #DDD;
+    border-radius: 4px;
+}
+
+#email{
+    width: 21rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    border: 0.1rem solid #DDD;
+    border-radius: 4px;
+}
+
+#msg{
+    width: 46rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+    border: 0.1rem solid #DDD;
+    border-radius: 4px;
+    height: 4rem;
+}
+
+.box{
+    padding: 1rem;
+}
+
+#submit{
+    width: 8rem;
+    height: 2.2rem; 
+    margin: 1rem; 
+    background-color: #6495ED; 
+    border: none;
+    border-radius: 4px;
+}
+
+
+@media screen and (max-width: 40rem) and (min-width: 25rem){
+    form{
+        margin: auto;
+        max-width: 36rem;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #fname{
+        width: 14rem;
+    }
+    
+    #email{
+        width: 14rem;
+    }
+    
+    #msg{
+        width: 31.5rem;
+    }
+    
+    .box{
+        padding: 1rem;
+    }
+    
+    #submit{
+        width: 31.7rem;
+    }
+}
+
+@media screen and (max-width: 25rem) {
+    form{
+        margin: auto;
+        max-width: 22rem;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #fname{
+        width: 18rem;
+    }
+    
+    #email{
+        width: 18rem;
+    }
+    
+    #msg{
+        width: 18rem;
+    }
+    
+    .box{
+        padding: 1rem;
+    }
+    
+    #submit{
+        width: 18rem;
+    }
+}
